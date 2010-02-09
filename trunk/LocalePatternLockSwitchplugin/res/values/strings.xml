@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Locale Pattern Lock plugin</string>
+<string name="plugin_name">Pattern lock</string>
+<string name="com.buzzzsoft.localePatternLockSwitch.extra.MESSAGE">msg</string>
+
+<string name="LockEnabled">Enable pattern lock</string>
+<string name="LockDisabled">Disable pattern lock</string>
+</resources>
