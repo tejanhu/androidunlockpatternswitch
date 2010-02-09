@@ -149,7 +149,7 @@ public class EditActivity extends Activity {
 		final PackageManager manager = getPackageManager();
 
 		final Intent helpIntent = new Intent(com.twofortyfouram.Intent.ACTION_HELP);
-		helpIntent.putExtra(com.twofortyfouram.Intent.EXTRA_STRING_HELP_URL, "http://code.google.com/p/androidunlockpatternswitch/");
+		helpIntent.putExtra(com.twofortyfouram.Intent.EXTRA_STRING_HELP_URL, getResources().getString(R.string.website));
 
 		// Note: title was set in onCreate
 		helpIntent.putExtra(com.twofortyfouram.Intent.EXTRA_STRING_BREADCRUMB, getTitle().toString());
