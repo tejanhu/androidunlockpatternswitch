@@ -67,12 +67,13 @@
             </intent-filter>
         </receiver>
     
+<!-- for testing purposes. Makes the activity appear in the app menu 
 <activity android:name=".EditActivity" android:label="@string/app_name">
 <intent-filter><action android:name="android.intent.action.MAIN"></action>
 <category android:name="android.intent.category.LAUNCHER"></category>
 </intent-filter>
 
-</activity>
+</activity> -->
 </application>
     <uses-sdk android:minSdkVersion="3" />
 </manifest> 
